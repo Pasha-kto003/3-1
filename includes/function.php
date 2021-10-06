@@ -120,7 +120,7 @@ function getFileContent($path){
 }
 
 function parseFile($path){
-    $content = explode( '===', getFileContent($path) );
+    $content = explode( '==', getFileContent($path) );
     return $content;
 }
 
